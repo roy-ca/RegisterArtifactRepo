@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Register Artifact Custom Action
-              uses: ServiceNow/servicenow-devops-register-artifact@scratch_STRY55387369
+              uses: ServiceNow/servicenow-devops-register-artifact@1.34.2
               with:
                 instance-url: ${{ secrets.SN_INSTANCE_URL }}
                 tool-id: ${{ secrets.SN_ORCHESTRATION_TOOL_ID }}
